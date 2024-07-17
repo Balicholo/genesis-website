@@ -547,7 +547,7 @@ margin-top: 40px;
     .house-card {
         width: 100px;
         height: 100px;
-        margin-top: 25px;
+        margin-top: 50px;
     }
     
     .card-text, .text-div {
@@ -676,7 +676,22 @@ margin-top: 40px;
 .other-options a:hover{
     color: rgb(89, 133, 89);
 }
-
+.other-options {
+    @media (max-width: 370px) {
+      /* display: grid;
+      grid-template-columns: repeat(2, 1fr); */
+      margin: 0;
+    }
+}
+.menu {
+    @media (max-width: 370px) {
+      /* display: grid;
+      grid-template-columns: repeat(2, 1fr); */
+      margin: 0 auto;
+      width: 70%;
+      
+    }
+}
 /* PAGINATION */
 .passport-grid{
     display: grid;
@@ -790,6 +805,15 @@ margin-top: 40px;
         /* top: 25%; */
         margin-top: -30px;
         height: 35px;
+    }
+    .logo{
+        display: none;
+    }
+    .heading-text{
+        margin-top: 40px;
+    }
+    .dropdown_menu{
+        background-color: rgb(255, 255, 255);
     }
 }
 @media (max-width: 470px) {
